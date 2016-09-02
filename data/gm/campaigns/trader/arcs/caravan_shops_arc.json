@@ -1,0 +1,9 @@
+{
+   "type" : "arc",
+   "rarity" : "common",
+
+   "encounters" : {
+      "fep_rares" : "furniture_expansion_plus/data/gm/campaigns/trader/arcs/encounters/rare_item_shop.json"
+  
+   }
+}

@@ -1,0 +1,27 @@
+{
+   "type":"recipe",
+
+   "work_units"  : 5,
+   "recipe_name" : "i18n(furniture_expansion_plus:jobs.weaver.recipes.blue_awning_recipe.recipe_name)",
+   "description" : "i18n(furniture_expansion_plus:jobs.weaver.recipes.blue_awning_recipe.description)",
+   "flavor"      : "i18n(furniture_expansion_plus:jobs.weaver.recipes.blue_awning_recipe.flavor)",
+   "portrait"    : "/furniture_expansion_plus/entities/decorations/blue_awning/blue_awning.png",
+   "workshop"    : "stonehearth:weaver:workbench",
+   "level_requirement": 2,
+
+   "ingredients": [
+      {
+         "material" : "cloth resource",
+         "count" : 1
+      },
+      {
+         "material" : "wood resource",
+         "count" : 1
+      }
+  ],
+  "produces": [
+      {
+         "item":"furniture_expansion_plus:decoration:blue_awning"
+      }
+  ]
+}

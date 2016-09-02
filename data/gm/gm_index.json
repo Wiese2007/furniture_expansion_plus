@@ -1,0 +1,11 @@
+{
+    "campaigns": {
+        "trader": {},
+        "combat": {},
+        "ambient_threats": {},
+        "game_events": {},
+        "other": {
+            "fep_events": "furniture_expansion_plus/data/gm/campaigns/fep_events/fep_events_campaign.json"
+        }
+    }
+}

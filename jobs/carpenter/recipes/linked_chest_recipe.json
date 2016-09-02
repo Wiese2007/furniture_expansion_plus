@@ -1,0 +1,22 @@
+{
+   "type":"recipe",
+
+   "work_units"  : 3,
+   "recipe_name" : "i18n(furniture_expansion_plus:jobs.carpenter.recipes.linked_chest_recipe.recipe_name)",
+   "description" : "i18n(furniture_expansion_plus:jobs.carpenter.recipes.linked_chest_recipe.description)",
+   "flavor"      : "i18n(furniture_expansion_plus:jobs.carpenter.recipes.linked_chest_recipe.flavor)",
+   "portrait"    : "/furniture_expansion_plus/entities/furniture/linked_chest/linked_chest.png",
+   "level_requirement" : 4,
+
+   "ingredients": [
+      {
+         "material" : "wood resource",
+         "count" : 3
+      }
+  ],
+  "produces": [
+      {
+         "item":"furniture_expansion_plus:furniture:linked_chest"
+      }
+  ]
+}

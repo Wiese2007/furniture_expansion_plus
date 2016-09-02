@@ -1,0 +1,23 @@
+{
+   "type":"recipe",
+
+   "work_units"  : 3,
+   "recipe_name" : "i18n(furniture_expansion_plus:jobs.carpenter.recipes.shelf_recipe.recipe_name)",
+   "description" : "i18n(furniture_expansion_plus:jobs.carpenter.recipes.shelf_recipe.description)",
+   "flavor"      : "i18n(furniture_expansion_plus:jobs.carpenter.recipes.shelf_recipe.flavor)",
+   "portrait"    : "/furniture_expansion_plus/entities/furniture/shelf/shelf.png",
+   "workshop" : "stonehearth:carpenter:workbench",
+   "level_requirement" : 2,
+
+   "ingredients": [
+      {
+         "material" : "wood resource",
+         "count" : 4
+      }
+  ],
+  "produces": [
+      {
+         "item":"furniture_expansion_plus:furniture:shelf"
+      }
+  ]
+}

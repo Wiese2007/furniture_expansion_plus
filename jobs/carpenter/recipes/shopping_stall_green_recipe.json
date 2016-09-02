@@ -1,0 +1,28 @@
+{
+   "type":"recipe",
+
+   "work_units"  : 5,
+   "recipe_name" : "i18n(furniture_expansion_plus:jobs.carpenter.recipes.shopping_stall_green_recipe.recipe_name)",
+   "description" : "i18n(furniture_expansion_plus:jobs.carpenter.recipes.shopping_stall_green_recipe.description)",
+   "flavor"      : "i18n(furniture_expansion_plus:jobs.carpenter.recipes.shopping_stall_green_recipe.flavor)",
+   "portrait"    : "/furniture_expansion_plus/entities/furniture/shopping_stall/shopping_stall_green.png",
+   "workshop" : "stonehearth:carpenter:toolbench",   
+   "level_requirement" : 3,
+   
+
+   "ingredients": [
+      {
+         "material" : "wood resource",
+         "count" : 4
+      },
+      {
+         "material" : "cloth resource",
+         "count" : 2
+      }
+  ],
+  "produces": [
+      {
+         "item":"furniture_expansion_plus:shopping_stall_green"
+      }
+  ]
+}

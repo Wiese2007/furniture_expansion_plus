@@ -1,0 +1,30 @@
+{
+   "mixins": "stonehearth:mixins:placed_object",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(red_curtains.qb)"
+            ]
+         }
+      },
+      "mob": {
+         "model_origin": { "x": -0.55, "y": -0.5, "z": -0.5 },
+         "region_origin": { "x": 0.0, "y": 0, "z": 0.0 }
+      },
+      "render_info": {
+         "scale": 0.1
+      },
+      "stonehearth:material": {
+         "tags": "decoration crafted"
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "display_name": "i18n(furniture_expansion_plus:entities.decorations.red_curtains.red_curtains_ghost.display_name)",
+         "description": "i18n(furniture_expansion_plus:entities.decorations.red_curtains.red_curtains_ghost.description)",
+         "icon": "file(red_curtains.png)",
+         "category": "decoration"
+      }
+   }
+}

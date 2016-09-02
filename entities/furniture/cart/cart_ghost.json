@@ -1,0 +1,27 @@
+{
+   "mixins": "stonehearth:mixins:placed_object",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(cart.qb)"
+            ]
+         }
+      },
+      "stonehearth:material": {
+         "tags": "wood furniture crafted"
+      },
+      "mob": {
+         "model_origin": { "x": -0.05, "y": 0, "z": 0.05 },
+         "region_origin": { "x": 0.5, "y": 0, "z": 0.5 }
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "display_name": "i18n(furniture_expansion_plus:entities.furniture.cart.cart_ghost.display_name)",
+         "description": "i18n(furniture_expansion_plus:entities.furniture.cart.cart_ghost.description)",
+         "icon": "file(cart.png)",
+         "category": "decoration"
+      }
+   }
+}

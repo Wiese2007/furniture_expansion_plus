@@ -1,0 +1,32 @@
+{
+   "type":"recipe",
+
+   "work_units"  : 3,
+   "recipe_name" : "i18n(furniture_expansion_plus:jobs.carpenter.recipes.scarecrow_recipe.recipe_name)",
+   "description" : "i18n(furniture_expansion_plus:jobs.carpenter.recipes.scarecrow_recipe.description)",
+   "flavor"      : "i18n(furniture_expansion_plus:jobs.carpenter.recipes.scarecrow_recipe.flavor)",
+   "portrait"    : "/furniture_expansion_plus/entities/furniture/scarecrow/scarecrow.png",
+   "workshop" : "stonehearth:carpenter:toolbench", 
+   "level_requirement" : 2,
+   
+
+   "ingredients": [
+      {
+         "material" : "wood resource",
+         "count" : 1
+      },
+      {
+         "material" : "leather resource",
+         "count" : 1
+      },
+      {
+	 "uri" : "stonehearth:food:wheat:wheat_bale",
+	 "count" : 3
+      }
+  ],
+  "produces": [
+      {
+         "item":"furniture_expansion_plus:scarecrow"
+      }
+  ]
+}

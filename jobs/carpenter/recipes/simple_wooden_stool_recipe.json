@@ -1,0 +1,22 @@
+{
+   "type":"recipe",
+
+   "work_units"  : 3,
+   "recipe_name" : "i18n(furniture_expansion_plus:jobs.carpenter.recipes.simple_wooden_stool_recipe.recipe_name)",
+   "description" : "i18n(furniture_expansion_plus:jobs.carpenter.recipes.simple_wooden_stool_recipe.description)",
+   "flavor"      : "i18n(furniture_expansion_plus:jobs.carpenter.recipes.simple_wooden_stool_recipe.flavor)",
+   "portrait"    : "/furniture_expansion_plus/entities/furniture/simple_wooden_stool/simple_wooden_stool.png",
+   "workshop" : "stonehearth:carpenter:workbench",
+
+   "ingredients": [
+      {
+         "material" : "wood resource",
+         "count" : 2
+      }
+  ],
+  "produces": [
+      {
+         "item":"furniture_expansion_plus:simple_wooden_stool"
+      }
+  ]
+}

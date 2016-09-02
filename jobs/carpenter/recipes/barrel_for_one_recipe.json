@@ -1,0 +1,23 @@
+{
+   "type":"recipe",
+
+   "work_units"  : 3,
+   "recipe_name" : "i18n(furniture_expansion_plus:jobs.carpenter.recipes.barrel_for_one_recipe.recipe_name)",
+   "description" : "i18n(furniture_expansion_plus:jobs.carpenter.recipes.barrel_for_one_recipe.description)",
+   "flavor"      : "i18n(furniture_expansion_plus:jobs.carpenter.recipes.barrel_for_one_recipe.flavor)",
+   "portrait"    : "/furniture_expansion_plus/entities/furniture/barrel_for_one/barrel_for_one.png",
+   "workshop" : "stonehearth:carpenter:workbench",
+   "level_requirement" : 2,
+
+   "ingredients": [
+      {
+         "material" : "wood resource",
+         "count" : 3
+      }
+  ],
+  "produces": [
+      {
+         "item":"furniture_expansion_plus:barrel_for_one"
+      }
+  ]
+}

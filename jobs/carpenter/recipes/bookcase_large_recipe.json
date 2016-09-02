@@ -1,0 +1,27 @@
+{
+   "type":"recipe",
+
+   "work_units"  : 3,
+   "recipe_name" : "i18n(furniture_expansion_plus:jobs.carpenter.recipes.bookcase_large_recipe.recipe_name)",
+   "description" : "i18n(furniture_expansion_plus:jobs.carpenter.recipes.bookcase_large_recipe.description)",
+   "flavor"      : "i18n(furniture_expansion_plus:jobs.carpenter.recipes.bookcase_large_recipe.flavor)",
+   "portrait"    : "/furniture_expansion_plus/entities/furniture/bookcase_large/bookcase_large.png",
+   "workshop" : "stonehearth:carpenter:toolbench", 
+   "level_requirement" : 3,
+
+   "ingredients": [
+      {
+         "material" : "wood resource",
+         "count" : 3
+      },
+      {
+         "material" : "leather resource",
+         "count" : 3
+      }
+  ],
+  "produces": [
+      {
+         "item":"furniture_expansion_plus:furniture:bookcase_large"
+      }
+  ]
+}

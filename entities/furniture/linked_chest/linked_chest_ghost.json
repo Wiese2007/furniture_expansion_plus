@@ -1,0 +1,35 @@
+{
+   "mixins": "stonehearth:mixins:placed_object",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(linked_chest.qb)"
+            ]
+         }
+      },
+      "render_info": {
+         "scale": 0.15
+      },
+      "stonehearth:material": {
+         "tags": "furniture"
+      },
+      "mob": {
+         "model_origin": { "x": 0, "y": 0, "z": 0 },
+         "region_origin": { "x": 0, "y": 0, "z": 0 },
+         "align_to_grid": [
+            "x",
+            "z"
+         ],
+         "allow_vertical_adjacent": true
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "description": "i18n(furniture_expansion_plus:entities.furniture.linked_chest.linked_chest_ghost.description)",
+         "icon": "file(linked_chest.png)",
+         "display_name": "i18n(furniture_expansion_plus:entities.furniture.linked_chest.linked_chest_ghost.display_name)",
+         "category": "furniture"
+      }
+   }
+}

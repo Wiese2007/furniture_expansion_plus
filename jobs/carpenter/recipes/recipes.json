@@ -1,0 +1,73 @@
+{
+    "craftable_recipes": {
+        "furniture_expansion": {
+            "ordinal": 10,
+            "name": "Furniture Expansion Plus",
+            "recipes": {
+                "bookcase_large": {
+                    "recipe": "file(bookcase_large_recipe.json)"
+                },
+                "bookcase_small": {
+                    "recipe": "file(bookcase_small_recipe.json)"
+                },
+                "burning_logs": {
+                    "recipe": "file(burning_logs_recipe.json)"
+                },
+                "washing_cabinet": {
+                    "recipe": "file(washing_cabinet_recipe.json)"
+                },
+                "redcloth_wooden_table": {
+                    "recipe": "file(redcloth_wooden_table_recipe.json)"
+                },
+                "bluecloth_wood_table": {
+                    "recipe": "file(bluecloth_wood_table_recipe.json)"
+                },
+                "trapdoor": {
+                    "recipe": "file(trapdoor_recipe.json)"
+                },
+                "bar_section": {
+                    "recipe": "file(bar_section_recipe.json)"
+                },
+                "bar_corner": {
+                    "recipe": "file(bar_corner_recipe.json)"
+                },
+                "barrel_chair": {
+                    "recipe": "file(barrel_chair_recipe.json)"
+                },
+                "crate_chair": {
+                    "recipe": "file(crate_chair_recipe.json)"
+                },
+                "barrel_table": {
+                    "recipe": "file(barrel_table_recipe.json)"
+                },
+                "barrel_for_one": {
+                    "recipe": "file(barrel_for_one_recipe.json)"
+                },
+                "boiling_cabinet": {
+                    "recipe": "file(boiling_cabinet_recipe.json)"
+                },
+                "scarecrow": {
+                    "recipe": "file(scarecrow_recipe.json)"
+                },
+                "shopping_stall_purple": {
+                    "recipe": "file(shopping_stall_purple_recipe.json)"
+                },
+                "shopping_stall_blue": {
+                    "recipe": "file(shopping_stall_blue_recipe.json)"
+                },
+                "shopping_stall_green": {
+                    "recipe": "file(shopping_stall_green_recipe.json)"
+                },
+                "shopping_stall_pink": {
+                    "recipe": "file(shopping_stall_pink_recipe.json)"
+                },
+                "simple_wooden_stool": {
+                    "recipe": "file(simple_wooden_stool_recipe.json)"
+                },
+                "cart": {
+                    "recipe": "file(cart_recipe.json)"
+                }
+            }
+        }
+    }
+}

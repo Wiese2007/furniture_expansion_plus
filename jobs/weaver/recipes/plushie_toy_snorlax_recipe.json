@@ -1,0 +1,31 @@
+{
+   "type":"recipe",
+
+   "work_units"  : 5,
+   "recipe_name" : "i18n(furniture_expansion_plus:jobs.weaver.recipes.plushie_toy_snorlax_recipe.recipe_name)",
+   "description" : "i18n(furniture_expansion_plus:jobs.weaver.recipes.plushie_toy_snorlax_recipe.description)",
+   "flavor"      : "i18n(furniture_expansion_plus:jobs.weaver.recipes.plushie_toy_snorlax_recipe.flavor)",
+   "portrait"    : "/furniture_expansion_plus/entities/toys/plushie_toy_snorlax/plushie_toy_snorlax.png",
+   "workshop"    : "stonehearth:weaver:workbench", 
+   "level_requirement" : 4,
+
+   "ingredients": [
+      {
+         "material" : "thread resource",
+         "count" : 3
+      },
+      {
+         "material" : "cloth resource",
+         "count" : 3
+      },
+      {
+         "material" : "pelt resource",
+         "count" : 3
+      }
+  ],
+  "produces": [
+      {
+         "item":"furniture_expansion_plus:toys:plushie_toy_snorlax"
+      }
+  ]
+}

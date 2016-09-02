@@ -1,0 +1,23 @@
+{
+   "type":"recipe",
+
+   "work_units"  : 3,
+   "recipe_name" : "i18n(furniture_expansion_plus:jobs.carpenter.recipes.bar_corner_recipe.recipe_name)",
+   "description" : "i18n(furniture_expansion_plus:jobs.carpenter.recipes.bar_corner_recipe.description)",
+   "flavor"      : "i18n(furniture_expansion_plus:jobs.carpenter.recipes.bar_corner_recipe.flavor)",
+   "portrait"    : "/furniture_expansion_plus/entities/furniture/bar_corner/bar_corner.png",
+   "level_requirement" : 2,
+   "workshop" : "stonehearth:carpenter:workbench",
+
+   "ingredients": [
+      {
+         "material" : "wood resource",
+         "count" : 2
+      }
+  ],
+  "produces": [
+      {
+         "item":"furniture_expansion_plus:furniture:bar_corner"
+      }
+  ]
+}

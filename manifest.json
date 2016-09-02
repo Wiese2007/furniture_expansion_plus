@@ -1,0 +1,62 @@
+{
+    "info": {
+        "name": "Furniture Expansion Plus",
+        "version" : 3
+    },
+
+    "default_locale" : "en",
+    
+"aliases": {
+	"decoration:red_curtains": "file(entities/decorations/red_curtains/red_curtains.json)",
+	"decoration:red_awning": "file(entities/decorations/red_awning/red_awning.json)",
+	"decoration:blue_awning": "file(entities/decorations/blue_awning/blue_awning.json)",
+	"decoration:trapdoor": "file(entities/decorations/trapdoor/trapdoor.json)",
+        
+	"furniture:linked_chest": "file(entities/furniture/linked_chest)",
+	"furniture:wooden_chest": "file(entities/furniture/wooden_chest)",
+        "furniture:washing_cabinet": "file(entities/furniture/washing_cabinet)",
+        "furniture:burning_logs": "file(entities/furniture/burning_logs/burning_logs.json)",
+        "furniture:redcloth_wooden_table": "file(entities/furniture/redcloth_wooden_table/redcloth_wooden_table.json)",
+        "furniture:bluecloth_wood_table": "file(entities/furniture/bluecloth_wood_table/bluecloth_wood_table.json)",
+        "furniture:piano": "file(entities/furniture/piano/piano.json)",
+        "furniture:bookcase_large": "file(entities/furniture/bookcase_large/bookcase_large.json)",
+        "furniture:bookcase_small": "file(entities/furniture/bookcase_small/bookcase_small.json)",
+        "furniture:shelf": "file(entities/furniture/shelf/shelf.json)",
+        "furniture:training_dummy": "file(entities/furniture/training_dummy/training_dummy.json)",
+        "furniture:bar_section": "file(entities/furniture/bar_section/bar_section.json)",
+        "furniture:bar_corner": "file(entities/furniture/bar_corner/bar_corner.json)",
+        "furniture:cart": "file(entities/furniture/cart/cart.json)",
+
+        "barrel_chair": "file(entities/furniture/barrel_chair)",
+	"simple_wooden_stool": "file(entities/furniture/simple_wooden_stool/simple_wooden_stool.json)",
+	"crate_chair": "file(entities/furniture/crate_chair/crate_chair.json)",
+        
+	"barrel_table": "file(entities/furniture/barrel_table)",
+	"barrel_for_one": "file(entities/furniture/barrel_for_one)",
+
+	"boiling_cabinet": "file(entities/furniture/boiling_cabinet)",
+        
+	"scarecrow": "file(entities/furniture/scarecrow)",
+	
+	"shopping_stall_purple": "file(entities/furniture/shopping_stall/shopping_stall_purple.json)",
+	"shopping_stall_pink": "file(entities/furniture/shopping_stall/shopping_stall_pink.json)",
+	"shopping_stall_blue": "file(entities/furniture/shopping_stall/shopping_stall_blue.json)",
+	"shopping_stall_green": "file(entities/furniture/shopping_stall/shopping_stall_green.json)",
+
+	"toys:plushie_toy_mudkip": "file(entities/toys/plushie_toy_mudkip/plushie_toy_mudkip.json)",
+	"toys:plushie_toy_meowth": "file(entities/toys/plushie_toy_meowth/plushie_toy_meowth.json)",
+	"toys:plushie_toy_snorlax": "file(entities/toys/plushie_toy_snorlax/plushie_toy_snorlax.json)"
+    },
+    
+    "mixintos": {
+        "stonehearth/jobs/carpenter/recipes/recipes.json": [
+            "file(jobs/carpenter/recipes/recipes.json)"
+        ],
+        "stonehearth/jobs/weaver/recipes/recipes.json": [
+            "file(jobs/weaver/recipes/recipes.json)"
+        ],
+        "stonehearth/data/gm/campaigns/trader/arcs/caravan_shops_arc.json": [
+            "file(data/gm/campaigns/trader/arcs/caravan_shops_arc.json)"
+        ]
+    }
+}

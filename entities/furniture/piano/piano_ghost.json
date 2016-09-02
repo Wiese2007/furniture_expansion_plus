@@ -1,0 +1,30 @@
+{
+   "mixins": "stonehearth:mixins:placed_object",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(piano.qb)"
+            ]
+         }
+      },
+      "render_info": {
+         "scale": 0.15
+      },
+      "stonehearth:material": {
+         "tags": "furniture"
+      },
+      "mob": {
+         "model_origin": { "x": -0.05, "y": 0, "z": 0.05 },
+         "region_origin": { "x": 0.5, "y": 0, "z": 0.5 }
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "display_name": "i18n(furniture_expansion_plus:entities.furniture.piano.piano_ghost.display_name)",
+         "description": "i18n(furniture_expansion_plus:entities.furniture.piano.piano_ghost.description)",
+         "icon": "file(piano.png)",
+         "category": "furniture"
+      }
+   }
+}

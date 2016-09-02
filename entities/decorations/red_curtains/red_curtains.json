@@ -1,0 +1,26 @@
+{
+   "type" : "entity",
+    "mixins": "file(red_curtains_ghost.json)",
+    "components": {
+        "stonehearth:material": {
+            "tags": "decoration crafted cloth"
+        },
+        "stonehearth:entity_forms": {
+            "iconic_form": "file(red_curtains_iconic.json)",
+            "ghost_form": "file(red_curtains_ghost.json)",
+            "placeable_on_walls": true
+        }
+    },
+    "entity_data": {
+        "stonehearth:net_worth": {
+            "value_in_gold": 55,
+            "rarity": "common",
+            "shop_info": {
+                "buyable": true,
+                "sellable": true,
+                "shopkeeper_level": 1,
+                "shopkeeper_type": "caravan"
+            }
+        }
+    }
+}

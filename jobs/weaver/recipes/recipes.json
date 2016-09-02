@@ -1,0 +1,28 @@
+{
+    "craftable_recipes": {
+        "furniture_expansion": {
+            "ordinal": 10,
+            "name": "Furniture Expansion Plus",
+            "recipes": {
+                "red_curtains": {
+                    "recipe": "file(red_curtains_recipe.json)"
+                },
+                "red_awning": {
+                    "recipe": "file(red_awning_recipe.json)"
+                },
+                "blue_awning": {
+                    "recipe": "file(blue_awning_recipe.json)"
+                },
+                "plushie_toy_mudkip": {
+                    "recipe": "file(plushie_toy_mudkip_recipe.json)"
+                },
+                "plushie_toy_meowth": {
+                    "recipe": "file(plushie_toy_meowth_recipe.json)"
+                },
+                "plushie_toy_snorlax": {
+                    "recipe": "file(plushie_toy_snorlax_recipe.json)"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+   "type":"recipe",
+
+   "work_units"  : 3,
+   "recipe_name" : "i18n(furniture_expansion_plus:jobs.carpenter.recipes.barrel_chair_recipe.recipe_name)",
+   "description" : "i18n(furniture_expansion_plus:jobs.carpenter.recipes.barrel_chair_recipe.description)",
+   "flavor"      : "i18n(furniture_expansion_plus:jobs.carpenter.recipes.barrel_chair_recipe.flavor)",
+   "portrait"    : "/furniture_expansion_plus/entities/furniture/barrel_chair/barrel_chair.png",
+   "level_requirement" : 2,
+   "workshop" : "stonehearth:carpenter:workbench",
+
+   "ingredients": [
+      {
+         "material" : "wood resource",
+         "count" : 2
+      }
+  ],
+  "produces": [
+      {
+         "item":"furniture_expansion_plus:barrel_chair"
+      }
+  ]
+}

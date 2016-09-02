@@ -1,0 +1,27 @@
+{
+   "type":"recipe",
+
+   "work_units"  : 3,
+   "recipe_name" : "i18n(furniture_expansion_plus:jobs.carpenter.recipes.bluecloth_wood_table_recipe.recipe_name)",
+   "description" : "i18n(furniture_expansion_plus:jobs.carpenter.recipes.bluecloth_wood_table_recipe.description)",
+   "flavor"      : "i18n(furniture_expansion_plus:jobs.carpenter.recipes.bluecloth_wood_table_recipe.flavor)",
+   "portrait"    : "/furniture_expansion_plus/entities/furniture/bluecloth_wood_table/bluecloth_wood_table.png",
+   "workshop" : "stonehearth:carpenter:toolbench", 
+   "level_requirement" : 3,
+
+   "ingredients": [
+      {
+         "material" : "wood resource",
+         "count" : 2
+      },
+      {
+         "material" : "cloth resource",
+         "count" : 1
+      }
+  ],
+  "produces": [
+      {
+         "item":"furniture_expansion_plus:furniture:bluecloth_wood_table"
+      }
+  ]
+}
